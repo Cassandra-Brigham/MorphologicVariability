@@ -1,0 +1,50 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite both the software itself (via the Zenodo DOI) and the associated publication below."
+title: "MorphologicVariability: A workflow for quantifying landform morphologic variability via supervised machine learning"
+abstract: >-
+  Python (Jupyter) workflow for quantifying the morphologic variability of
+  linear landforms. The code extracts landform-normal profiles from a DEM,
+  normalizes them, builds a supervised classifier (SVM) over a user-defined
+  set of morphologic classes derived via PCA/SVD on profile shape, and
+  computes a moving-window morphologic variability metric along the landform.
+type: software
+authors:
+  - family-names: Brigham
+    given-names: Cassandra A. P.
+    affiliation: "School of Earth and Space Exploration, Arizona State University; Department of Earth and Space Sciences, University of Washington"
+    orcid: "https://orcid.org/0000-0002-1902-0832"
+  - family-names: Callahan
+    given-names: Owen A.
+    affiliation: "En Échelon Geosolutions; Department of Earth and Space Sciences, University of Washington"
+    orcid: "https://orcid.org/0000-0003-0053-6430"
+  - family-names: Crider
+    given-names: Juliet G.
+    affiliation: "Department of Earth and Space Sciences, University of Washington"
+    orcid: "https://orcid.org/0000-0002-9366-2550"
+repository-code: "https://github.com/Cassandra-Brigham/MorphologicVariability"
+license: MIT
+version: "0.1.0"
+date-released: "2026-05-11"
+keywords:
+  - geomorphology
+  - morphologic variability
+  - landform classification
+  - fault scarps
+  - machine learning
+  - support vector machine
+  - principal component analysis
+  - structure from motion
+  - digital elevation model
+preferred-citation:
+  type: article
+  title: "A new metric for morphologic variability using landform shape classification via supervised machine learning"
+  authors:
+    - family-names: Brigham
+      given-names: Cassandra A. P.
+    - family-names: Crider
+      given-names: Juliet G.
+  journal: Geomorphology
+  volume: 399
+  start: 108065
+  year: 2022
+  doi: 10.1016/j.geomorph.2021.108065

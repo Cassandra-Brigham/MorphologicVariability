@@ -1,0 +1,50 @@
+{
+  "title": "MorphologicVariability: A workflow for quantifying landform morphologic variability via supervised machine learning",
+  "description": "Python (Jupyter) workflow for quantifying the morphologic variability of linear landforms. The code extracts landform-normal profiles from a DEM, normalizes them, builds a supervised classifier (SVM) over a user-defined set of morphologic classes derived via PCA/SVD on profile shape, and computes a moving-window morphologic variability metric along the landform. Originally developed for the Brigham and Crider (2022) study of fault scarps in jointed bedrock; subsequently applied to Holocene fault scarps in the Stillwater Seismic Gap, Dixie Valley, Nevada.",
+  "creators": [
+    {
+      "name": "Brigham, Cassandra A. P.",
+      "affiliation": "School of Earth and Space Exploration, Arizona State University, Tempe, AZ, USA; Department of Earth and Space Sciences, University of Washington, Seattle, WA, USA",
+      "orcid": "0000-0002-1902-0832"
+    },
+    {
+      "name": "Callahan, Owen A.",
+      "affiliation": "En Échelon Geosolutions, Palo Alto, CA, USA; Department of Earth and Space Sciences, University of Washington, Seattle, WA, USA",
+      "orcid": "0000-0003-0053-6430"
+    },
+    {
+      "name": "Crider, Juliet G.",
+      "affiliation": "Department of Earth and Space Sciences, University of Washington, Seattle, WA, USA",
+      "orcid": "0000-0002-9366-2550"
+    }
+  ],
+  "access_right": "open",
+  "license": "MIT",
+  "upload_type": "software",
+  "keywords": [
+    "geomorphology",
+    "morphologic variability",
+    "landform classification",
+    "fault scarps",
+    "machine learning",
+    "support vector machine",
+    "principal component analysis",
+    "structure from motion",
+    "digital elevation model",
+    "Python"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.1016/j.geomorph.2021.108065",
+      "relation": "isSupplementTo",
+      "scheme": "doi",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "10.0000/REPLACE-WITH-DIXIE-VALLEY-DOI",
+      "relation": "isSupplementTo",
+      "scheme": "doi",
+      "resource_type": "publication-article"
+    }
+  ]
+}
