@@ -1,4 +1,5 @@
 # MorphologicVariability
+[![DOI](https://zenodo.org/badge/700525798.svg)](https://doi.org/10.5281/zenodo.20128799)
  Code associated with Brigham and Crider's (2022) metric for calculating along-landform morphologic variability.
 
 ## Background
